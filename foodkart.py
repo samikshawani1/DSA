@@ -22,7 +22,7 @@ class LinkedList:
         new.next = self.head
         self.head = new
   
-    
+     
     def display(self):
         temp = self.head
         while temp is not None:
